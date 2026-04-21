@@ -43,6 +43,7 @@ const galleryItems = [
   { category: "Docencia", title: "Clase con la Duquesa de Alba", meta: "Palacio de Liria", image: "img/fotos/cayetana-alba.jpg", description: "Documento fotográfico de su labor docente en el Palacio de Liria." },
   { category: "Rodaje", title: "La taberna del toro", meta: "Madrid · 1975", image: "img/fotos/rodaje-taberna-toro-1975.jpg", description: "Imagen de rodaje junto a Antonio en una producción televisiva." },
   { category: "Documento", title: "Libro de personajes de Ceuta", meta: "Archivo biográfico", image: "img/libro/libro-01.jpg", description: "Página del libro que recupera y sintetiza su memoria artística." },
+  { category: "Documento", title: "Homenaje a carmen Rojas en Ceuta", meta: "Archivo biográfico", image: "img/fotos/rojas-lsms.jpg", description: "Fotografía del final del homenaje del espectáculo Rojas en Ceuta." },
 ];
 
 /**
