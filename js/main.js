@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderHomeCovers();
   renderHomeInfancy();
   renderHomeGallery();
-  renderHomeAudiovisual();
+  
   renderArchivePage();
   renderGalleryPage();
   renderCoversPage();
