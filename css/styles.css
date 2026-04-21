@@ -713,3 +713,43 @@ a {
     grid-template-columns: 1fr
   }
 }
+.special-map-section .section-narrow {
+  margin-bottom: 1.5rem;
+}
+
+.special-map-card {
+  max-width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.special-map-card:hover {
+  transform: translateY(-4px);
+}
+
+.special-map-thumb {
+  background: #111;
+}
+
+.special-map-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.special-map-content {
+  padding: 1rem 1.25rem 1.25rem;
+  background: #fff;
+}
+
+.special-map-content h3 {
+  margin: 0 0 0.5rem;
+}
+
+.special-map-content p {
+  margin: 0;
+  opacity: 0.85;
+}
