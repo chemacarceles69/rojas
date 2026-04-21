@@ -3,6 +3,7 @@
 */
 const timelineItems = [
   { year: "1935", title: "Nacimiento en Ceuta", text: "Nace Carmen Cárceles Escarcena en Ceuta, ciudad clave en su memoria y en su identidad artística." },
+  { year: "1949", title: "Llega a Madrid", text: "La capital fue elegida como  lugar de residencia para la familia. Empezó a formarse en la academia 'María de Román'" },
   { year: "1957", title: "Premio Nacional de Interpretación Coreográfica", text: "Recibe uno de los reconocimientos oficiales más importantes del Estado español por sus méritos artísticos." },
   { year: "1963", title: "Reconocimiento internacional", text: "La prensa recoge su actuación en la Casa Blanca y su impacto artístico tras actuar ante John F. Kennedy." },
   { year: "1964", title: "Festival de Cante Jondo de Granada", text: "Participa como figura principal de baile en uno de los eventos flamencos más relevantes del país." },
