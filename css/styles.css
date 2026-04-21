@@ -725,6 +725,66 @@ a {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
+/* =========================
+   VISOR / LIGHTBOX
+========================= */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  z-index: 9999;
+
+  display: none; /* se activa con JS */
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem;
+  overflow: auto; /* permite moverse por la imagen ampliada */
+}
+
+/* Cuando está activo */
+.lightbox.active {
+  display: flex;
+}
+
+/* Imagen ampliada */
+.lightbox img {
+  max-width: none;     /* CLAVE: elimina límite automático */
+  width: 180%;         /* ZOOM REAL al 180% */
+  height: auto;
+
+  object-fit: contain;
+  display: block;
+
+  transition: transform 0.3s ease;
+}
+
+/* Opcional: pequeño extra al pasar el ratón */
+.lightbox img:hover {
+  transform: scale(1.05);
+}
+
+/* Botón cerrar */
+.lightbox-close {
+  position: fixed;
+  top: 20px;
+  right: 25px;
+
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10000;
+
+  background: none;
+  border: none;
+}
+
+/* Cursor tipo zoom */
+.lightbox img {
+  cursor: zoom-in;
+}
+
 .special-map-card:hover {
   transform: translateY(-4px);
 }
