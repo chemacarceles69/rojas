@@ -51,6 +51,7 @@ const galleryItems = [
 */
 const coverItems = [
   { type: "Portada de revista", title: "Ballet Today", date: "Londres · 1958", source: "Revista", image: "img/portadas/londres-ballet-today-1958.jpg", summary: "Portada internacional vinculada a su consolidación europea.", text: "Pieza visual emblemática del archivo de Carmen Rojas." },
+  { type: "Portada de revista", title: "Revista AMA", date: "Madrid · 1962", source: "Revista", image: "img/portadas/REVISTA_AMA_MADRID1962.jpg", summary: "Portada de la revista AMA.", text: "Reportaje entrevista a Carmen Rojas realizada de la revista AMA y Mirufa Zuloaga." },
   { type: "Cartel cinematográfico", title: "Los celos y el duende", date: "Madrid · 1966", source: "Cine", image: "img/portadas/celos-duende-1966.jpg", summary: "Cartel de una de sus películas más representativas.", text: "Aporta valor a la sección cinematográfica y al archivo visual." },
   { type: "Cartel promocional", title: "Abu Dhabi", date: "1983", source: "Sheraton Hotel", image: "img/portadas/abu-dhabi-1983.jpg", summary: "Cartel de su etapa madura en Oriente Medio.", text: "Refleja la proyección internacional sostenida de la artista." },
   { type: "Cartel cinematográfico", title: "Luna de miel", date: "1959", source: "Cine", image: "img/portadas/luna-miel-1959.png", summary: "Cartel de la producción internacional dirigida por Michael Powell.", text: "Confirma su presencia en el cine de proyección internacional." },
