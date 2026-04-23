@@ -1,4 +1,4 @@
-const CARD_SELECTORS = '.archive-card, .gallery-card, .cover-card, .infancy-card, .audiovisual-card, .special-map-card';
+const CARD_SELECTORS = '.archive-card, .gallery-card, .cover-card, .infancy-card';
 
 function setupRevealAnimation() {
   const reveals = document.querySelectorAll('.reveal');
@@ -168,4 +168,3 @@ document.addEventListener('DOMContentLoaded', () => {
   setupCardImageDialog();
   setupRevealAnimation();
 });
-

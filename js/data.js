@@ -19,8 +19,8 @@ const timelineItems = [
 const archiveItems = [
   { type: "Prensa internacional", title: "PARÍS, CONQUISTADO POR UNA ESPAÑOLA DE DIECIOCHO AÑOS", meta: "París. 1955", image: "img/prensa/CRONICADEPARIS1955.jpg", summary: "Carmen Rojas deslumbra al público francés en el teatro de los Campos Elíseos con la compañía de Antonio.", text: "Tras triunfar en Londres y América del Sur, la joven bailarina gaditana Carmen Rojas debuta en París con la compañía de Antonio. La crítica destaca su gracia y arte andaluz, logrando una revolución en la danza flamenca al actuar únicamente acompañada por dos guitarristas y un cantaor, llegando a levantar el telón hasta catorce veces por la ovación del público." },
   { type: "Prensa internacional", title: "This is real flesh and blood ballet", meta: "Oxford · 1959", image: "img/prensa/Oxford-1959.jpeg", summary: "Recorte del Oxford Mail sobre la actuación de Carmen Rojas en la compañía de Antonio.", text: "Documento de prensa británica que destaca la calidad artística del ballet español y la presencia de Carmen Rojas en escena." },
-  { type: "Prensa internacional", title: "CARMEN ROJAS y PACO RUIZ TRIUNFAN EN PASAPOGA", meta: "Madrid . 1961", image: "img/prensa/RESEnADEMADRID1961.jpg", summary: "La célebre pareja de baile español debuta con gran éxito en la sala Pasapoga de Madrid.", text: "Como broche de oro del año 1961, la sala Pasapoga presenta a Carmen Rojas y Paco Ruiz, integrantes de la compañía de Antonio. Tras recorrer los teatros más famosos del mundo, la pareja destaca por su arte singular y temperamento, siendo Paco Ruiz señalado como el heredero del arte de su tío Antonio." }, 
   { type: "Reportaje", title: "Kirk Douglas quiere dirigir a Carmen Rojas", meta: "Madrid · 1963", image: "img/prensa/sabado-grafico-1963.jpg", summary: "El reportaje vincula a Carmen Rojas con Hollywood tras su actuación en la Casa Blanca.", text: "Uno de los artículos más valiosos del archivo por el reconocimiento internacional que refleja." },
+  { type: "Prensa internacional", title: "CARMEN ROJAS y PACO RUIZ TRIUNFAN EN PASAPOGA", meta: "Madrid . 1961", image: "img/prensa/RESEnADEMADRID1961.jpg", summary: "La célebre pareja de baile español debuta con gran éxito en la sala Pasapoga de Madrid.", text: "Como broche de oro del año 1961, la sala Pasapoga presenta a Carmen Rojas y Paco Ruiz, integrantes de la compañía de Antonio. Tras recorrer los teatros más famosos del mundo, la pareja destaca por su arte singular y temperamento, siendo Paco Ruiz señalado como el heredero del arte de su tío Antonio." }, 
   { type: "Entrevista", title: "Premio Viotti", meta: "Sevilla · 1963", image: "img/prensa/viotti-1963.jpg", summary: "Artículo sobre su reconocimiento en el concurso internacional celebrado en Italia.", text: "Refuerza su dimensión competitiva y su prestigio europeo." },
   { type: "Documento", title: "Carta de la Casa Blanca", meta: "Casa Blanca · 1963", image: "img/prensa/kennedy-1963.jpg", summary: "Carta oficial de agradecimiento firmada por John F. Kennedy.", text: "Carta oficial de agradecimiento firmada por John F. Kennedy." },
   { type: "Reportaje", title: "Vuelve Carmen Rojas", meta: "Madrid · 1964", image: "img/prensa/vuelve-carmen-1964.jpg", summary: "Regreso a los escenarios tras una lesión grave.", text: "Aporta una dimensión humana y de superación a la trayectoria de la artista." },
@@ -72,10 +72,10 @@ const infancyItems = [
  Datos sobre archivos audiovisuales
 */
 const audiovisualItems = [
-  { title: "Documento audiovisual", url: "https://youtu.be/_cnVaCyvXAk", videoId: "_cnVaCyvXAk" },
-  { title: "Documento audiovisual", url: "https://youtu.be/t7AGZFLwGDc", videoId: "t7AGZFLwGDc" },
-  { title: "Documento audiovisual", url: "https://youtu.be/E5sK5vhjmOw", videoId: "E5sK5vhjmOw" },
-  { title: "Documento audiovisual", url: "https://youtu.be/Ydk8VgCf2Xg", videoId: "Ydk8VgCf2Xg" },
-  { title: "Documento audiovisual", url: "https://youtu.be/cCCa6bbnxoI", videoId: "cCCa6bbnxoI" },
-  { title: "Documento audiovisual", url: "https://youtu.be/TMuK9d2xfFY", videoId: "TMuK9d2xfFY" }
+  { title: "Documento audiovisual", url: "https://youtu.be/_cnVaCyvXAk", videoId: "_cnVaCyvXAk", description: "Registro audiovisual relacionado con la trayectoria artística de Carmen Rojas." },
+  { title: "Registro escénico", url: "https://youtu.be/t7AGZFLwGDc", videoId: "t7AGZFLwGDc", description: "Material vinculado a su presencia en el escenario y a su estilo interpretativo." },
+  { title: "Documento escénico", url: "https://youtu.be/E5sK5vhjmOw", videoId: "E5sK5vhjmOw", description: "Contexto visual sobre su trayectoria en el ámbito del baile y la escena." },
+  { title: "Registro artístico", url: "https://youtu.be/Ydk8VgCf2Xg", videoId: "Ydk8VgCf2Xg", description: "Documento vinculado a su interpretación y presencia artística en contexto." },
+  { title: "Documento escénico", url: "https://youtu.be/cCCa6bbnxoI", videoId: "cCCa6bbnxoI", description: "Material visual sobre su proyección cultural y actividad artística." },
+  { title: "Registro escénico", url: "https://youtu.be/TMuK9d2xfFY", videoId: "TMuK9d2xfFY", description: "Documento relacionado con su interpretación y presencia en el escenario." }
 ];
